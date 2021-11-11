@@ -405,8 +405,9 @@ header .navbar a:hover{
 }
 
 
-/* <=========== LOADER ===========> */
-/* .loader-container{
+
+/* <=========== LOADER GIF ===========> */
+ .loader-container{
     position: fixed;
     top: 0;
     left: 0;
@@ -421,7 +422,7 @@ header .navbar a:hover{
 
 .loader-container.fade-out{
     top: -120%;
-} */
+} 
 
 /* <=========== MEDIA QUERIES ===========> */
 
