@@ -1,7 +1,7 @@
 const menu = document.querySelector('#menu-bar');
 const navbar = document.querySelector('.navbar');
 
-/* MENU - Toggle Type Burger to Type Close */
+/* ==================== MENU - Toggle Type Burger to Type Close ==================== */
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
@@ -19,6 +19,7 @@ window.onscroll = () => {
     }
 }
 
+/* ====================== Loading "imagen al cargar la pagina" ====================== */
 const loader = () => {
     document.querySelector('.loader-container').classList.add('fade-out');
 }

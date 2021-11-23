@@ -221,10 +221,6 @@ header .navbar a:hover{
 }
 
 
-
-
-
-
 /* SERVICIOS "STEPS" */
 .steps{
     display: flex;
@@ -306,8 +302,6 @@ header .navbar a:hover{
 
 
 /* <========= CONTENIDO REVIEW ========> */
-
-
 .review .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -368,10 +362,6 @@ header .navbar a:hover{
 }
 
 
-
-
-
-
 /* <=========== FOOTER ===========> */
 .footer{
     background-color: #000;
@@ -400,6 +390,7 @@ header .navbar a:hover{
     color: var(--red);
 }
 
+
 /* <=========== SCROLL TOP ===========> */
 #scroll-top{
     position: fixed;
@@ -414,12 +405,12 @@ header .navbar a:hover{
     z-index: 1000;
 }
 
+
 /* Utilizando JS podemos aparecer y desaparecer el Scroll-top */
 /* Nota Importante: cuando utilizamos una clase "class" invocada por JS debemos colocar dicha clase pegada de las anteriores */
 #scroll-top.active{ 
     top: calc(100% - 12rem);
 }
-
 
 
 /* <=========== LOADER GIF ===========> */
@@ -440,6 +431,7 @@ header .navbar a:hover{
     top: -120%;
 } 
  
+
 /* <=========== MEDIA QUERIES ===========> */
 
 /* HTML and HEADER */
